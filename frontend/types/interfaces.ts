@@ -1,4 +1,4 @@
-export interface IProduct extends Document{
+export interface IProduct {
     _id: string;
     createdAt: string;
     name: string;
