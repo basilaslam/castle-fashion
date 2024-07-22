@@ -1,4 +1,3 @@
-// components/__tests__/ProductCard.test.tsx
 
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
@@ -41,8 +40,8 @@ describe('ProductCard component', () => {
     image2: '/test-image.jpg',
     image3: '/test-image.jpg',
     category: 'Test Category',
-    createdAt: '2022-01-01',
-    quantity: 10
+    quantity: 1,
+    createdAt: '2022-01-01'
   } satisfies IProduct;
 
   beforeEach(() => {

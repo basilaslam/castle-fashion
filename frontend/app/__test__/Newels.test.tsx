@@ -1,9 +1,7 @@
-// components/__tests__/Newest.test.tsx
-
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Newest from '@/components/Newels';
+import Newest from '@/components/Newels'; // Ensure this path is correct
 
 // Mock the dependencies
 jest.mock('@/lib/axios', () => ({
@@ -14,7 +12,8 @@ jest.mock('@/lib/auth', () => ({
   getCurrentToken: jest.fn(),
 }));
 
-jest.mock('../ProductCard', () => {
+// Update the path to ProductCard
+jest.mock('@/components/ProductCard', () => {
   return function MockProductCard({ product }: { product: any }) {
     return <div data-testid="product-card">{product.name}</div>;
   };

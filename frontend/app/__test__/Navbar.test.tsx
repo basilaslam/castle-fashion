@@ -109,7 +109,15 @@ describe('Navbar component', () => {
 
     render(<Navbar />);
 
-    fireEvent.click(screen.getByTestId('badge').parentElement!);
+    // Add a log to check the element you're clicking
+    const badgeElement = screen.getByTestId('badge').parentElement;
+    console.log('badgeElement:', badgeElement);
+
+    fireEvent.click(badgeElement!);
+
+    // Add a log to check if the function is called
+    console.log('setShowCart calls:', setShowCart.mock.calls);
+
     expect(setShowCart).toHaveBeenCalledWith(true);
   });
 });

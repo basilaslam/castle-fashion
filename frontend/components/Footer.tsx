@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Footer() {
   return (
-    <footer className="bg-muted py-6 md:py-8 mt-auto">
+    <footer data-testid="castle-icon" className="bg-muted py-6 md:py-8 mt-auto" >
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <div className="flex items-center gap-2">
           <CastleIcon className="h-6 w-6" />

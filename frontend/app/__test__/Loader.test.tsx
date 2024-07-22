@@ -7,7 +7,7 @@ import Loader from '@/components/Loader';
 
 // Mock the Loader2Icon from lucide-react
 jest.mock('lucide-react', () => ({
-  Loader2Icon: () => <div data-testid="loader-icon" />
+  Loader2Icon: () => <div data-testid="loader-icon" className='w-10 h-10 animate-spin'/>
 }));
 
 describe('Loader component', () => {
