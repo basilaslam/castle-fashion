@@ -45,21 +45,20 @@ Testing
 
 Documentation
 
-[-] Provide clear instructions on how to set up and run the project locally in README.md.
-[-] Include information about environment variables, dependencies, and any other relevant details.
+[x] Provide clear instructions on how to set up and run the project locally in README.md.
+[x] Include information about environment variables, dependencies, and any other relevant details.
 
 Submission
 
-[-] Initialize a new repository on GitHub.
-[-] Push your code to the repository.
-[-] Ensure your repository is public.
-[-] Include the link to your public repository in your submission.
+[x] Initialize a new repository on GitHub.
+[x] Push your code to the repository.
+[x] Ensure your repository is public.
+[x] Include the link to your public repository in your submission.
 
 Final Checklist
 
 [-] Ensure all tasks are completed and code is thoroughly tested.
-[-] Review code for quality and structure.
-[-] Optimize UI/UX design and performance.
-[-] Update README.md with complete instructions.
-[-] Push final changes to the public repository.
-[-] Submit the repository link.
+[x] Review code for quality and structure.
+[x] Optimize UI/UX design and performance.
+[x] Update README.md with complete instructions.
+[x] Push final changes to the public repository.
