@@ -1,0 +1,65 @@
+[x] Initialize a new Node.js project.
+[x] Set up a .gitignore file to exclude node_modules and other unnecessary files.
+[x] Install necessary dependencies: express, mongoose, body-parser, cors, and jsonwebtoken.
+[x] Create an Express.js server.
+[x] Set up middleware: body-parser for JSON parsing and cors for handling cross-origin requests.
+[x] Set up a connection to MongoDB using Mongoose.
+[x] Create a .env file for environment variables (e.g., MongoDB URI).
+[x] Define a Mongoose schema and model for products.
+[x] Create routes for CRUD operations on products:
+[x] GET /products - Fetch all products.
+[x] GET /products/:id - Fetch a single product by ID.
+[x] POST /products - Create a new product.
+[x] PUT /products/:id - Update a product by ID.
+[x] DELETE /products/:id - Delete a product by ID.
+[x] Implement user registration and login routes.
+[x] Use JWT for user authentication.
+[x] Create middleware to protect routes that require authentication.
+
+Frontend Development (Next.js)
+
+[x] Create a new Next.js project.
+[x] Set up a .gitignore file to exclude node_modules and other unnecessary files.
+[x] Install necessary dependencies: axios, react-query, and any UI library you plan to use.
+[x] Create a home page to display featured products.
+[x] Create a product listing page to display all products with pagination or infinite scrolling.
+[x] Create a product detail page to display details of an individual product.
+[x] Create login and registration pages.
+[x] Implement authentication logic using JWT.
+[x] Set up protected routes.
+[x] Create reusable UI components (e.g., ProductCard, Navbar, Footer).
+[x] Use axios to make API requests to your Node.js backend.
+[-] Use react-query for data fetching, caching, and state management.
+
+Performance Optimization
+
+[x] Implement lazy loading for images and components where applicable.
+[x] Use Next.js’s built-in code splitting to optimize the loading of JavaScript bundles.
+[x] Ensure proper SEO practices (meta tags, title tags, etc.) on pages.
+
+Testing
+
+[-] Install testing libraries (e.g., Jest, React Testing Library).
+[-] Create test cases for your components and pages.
+[-] Create test cases for your backend routes using a tool like Supertest.
+
+Documentation
+
+[-] Provide clear instructions on how to set up and run the project locally in README.md.
+[-] Include information about environment variables, dependencies, and any other relevant details.
+
+Submission
+
+[-] Initialize a new repository on GitHub.
+[-] Push your code to the repository.
+[-] Ensure your repository is public.
+[-] Include the link to your public repository in your submission.
+
+Final Checklist
+
+[-] Ensure all tasks are completed and code is thoroughly tested.
+[-] Review code for quality and structure.
+[-] Optimize UI/UX design and performance.
+[-] Update README.md with complete instructions.
+[-] Push final changes to the public repository.
+[-] Submit the repository link.

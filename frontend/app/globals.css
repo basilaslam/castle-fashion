@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 100% 97%;
+    --foreground: 339 20% 15%;  /* Darkened for better contrast */
+    --primary: 308 56% 65%;     /* Darkened for better contrast */
+    --primary-foreground: 0 0% 100%;  /* Changed to white for better contrast */
+    --secondary: 196 75% 68%;   /* Darkened for better contrast */
+    --secondary-foreground: 210 22% 15%;  /* Darkened for better contrast */
+    --accent: 211 86% 50%;      /* Darkened for better contrast */
+    --accent-foreground: 0 0% 100%;  /* Changed to white for better contrast */
+    --destructive: 0 93% 63%;   /* Darkened for better contrast */
+    --destructive-foreground: 0 0% 100%;  /* Changed to white for better contrast */
+    --muted: 210 100% 90%;      /* Slightly darkened */
+    --muted-foreground: 210 22% 15%;  /* Darkened for better contrast */
+    --card: 210 100% 97%;
+    --card-foreground: 210 22% 15%;  /* Darkened for better contrast */
+    --popover: 0 0% 100%;
+    --popover-foreground: 341 20% 15%;  /* Darkened for better contrast */
+    --border: 210 40% 70%;      /* Darkened for better visibility */
+    --input: 210 40% 46%;       /* Darkened for better contrast */
+    --ring: 210 40% 50%;        /* Darkened for better visibility */
+    --radius: 1rem;
+  }
+
+  :root {
+    --background: 210 100% 97%;
+    --foreground: 339 20% 15%;  /* Darkened for better contrast */
+    --primary: 308 56% 65%;     /* Darkened for better contrast */
+    --primary-foreground: 0 0% 100%;  /* Changed to white for better contrast */
+    --secondary: 196 75% 68%;   /* Darkened for better contrast */
+    --secondary-foreground: 210 22% 15%;  /* Darkened for better contrast */
+    --accent: 211 86% 50%;      /* Darkened for better contrast */
+    --accent-foreground: 0 0% 100%;  /* Changed to white for better contrast */
+    --destructive: 0 93% 63%;   /* Darkened for better contrast */
+    --destructive-foreground: 0 0% 100%;  /* Changed to white for better contrast */
+    --muted: 210 100% 90%;      /* Slightly darkened */
+    --muted-foreground: 210 22% 15%;  /* Darkened for better contrast */
+    --card: 210 100% 97%;
+    --card-foreground: 210 22% 15%;  /* Darkened for better contrast */
+    --popover: 0 0% 100%;
+    --popover-foreground: 341 20% 15%;  /* Darkened for better contrast */
+    --border: 210 40% 70%;      /* Darkened for better visibility */
+    --input: 210 40% 46%;       /* Darkened for better contrast */
+    --ring: 210 40% 50%;        /* Darkened for better visibility */
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
