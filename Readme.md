@@ -91,7 +91,7 @@ AUTH_TRUST_HOST=true
 ```
 4. build and start the application: ```npm run build && npm start```
 
-
+<!-- 
 ## Running with Docker
 Alternatively, you can run the entire application using Docker Compose.
 
@@ -99,7 +99,7 @@ Alternatively, you can run the entire application using Docker Compose.
 1. Ensure you have Docker and Docker Compose installed.
 ```cd frontend```
 2. Build and run the application: 
-```docker-compose up --build```
+```docker-compose up --build``` -->
 
 ## Accessing the Application
 - The frontend will be available at http://localhost:3000.
